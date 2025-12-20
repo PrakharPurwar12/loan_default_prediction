@@ -24,9 +24,7 @@ from sklearn.metrics import (
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 
-# --------------------
-# 2. Configuration
-# --------------------
+
 DATA_PATH = "Loan_default.csv"
 RF_MODEL_PATH = "loan_default_rf.pkl"
 XGB_MODEL_PATH = "loan_default_xgb.pkl"
